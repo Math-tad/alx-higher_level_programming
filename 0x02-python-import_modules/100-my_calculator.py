@@ -8,7 +8,7 @@ if __name__ == "__main__":
         exit(1)
     else:
         for i, arg in enumerate(argv[1:]):
-            if i = 0:
+            if i == 0:
                 arg1 = int(arg)
             elif i == 1:
                 arg2 = arg
