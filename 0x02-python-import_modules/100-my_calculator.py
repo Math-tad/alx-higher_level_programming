@@ -25,4 +25,4 @@ if __name__ == "__main__":
         else:
             print("Unknown operator. Available operators: +, -, * and /")
             exit(1)
-    print("{:d}: {} {:d} = {:d}".format(arg1, arg2, arg3, value))
+        print("{:d}: {} {:d} = {:d}".format(arg1, arg2, arg3, value))
