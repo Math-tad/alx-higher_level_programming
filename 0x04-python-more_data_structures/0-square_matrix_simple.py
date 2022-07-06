@@ -3,7 +3,8 @@ def square_matrix_simple(matrix=[]):
     new_matrix = []
     if matrix is not None:
         for i in matrix:
-            square = j ** 2
+            def square(x):
+                return j ** 2
             new_matrix.append(list(map(square, i)))
         return new_matrix
     return None
