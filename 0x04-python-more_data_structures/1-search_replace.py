@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def search_replace(my_list, search, replace):
-    new_list = [] 
+    new_list = []
     if my_list is not None:
         for i in my_list:
             if i == search:
