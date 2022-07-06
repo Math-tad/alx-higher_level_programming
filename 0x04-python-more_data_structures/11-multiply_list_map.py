@@ -1,5 +1,3 @@
 #!/usr/bin/python3
 def multiply_list_map(my_list=[], number=0):
-    def List(num):
-        return num * number
-    return list(map(List, my_list))
+    return list(map(def List(num): return num * number, my_list))
