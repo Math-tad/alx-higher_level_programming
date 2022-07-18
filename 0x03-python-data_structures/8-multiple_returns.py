@@ -6,4 +6,4 @@ def multiple_returns(sentence):
     else:
         for char in sentence:
             return leng, char
-    return leng, 
+    return leng, char
